@@ -49,3 +49,12 @@ dtparam=act_led_trigger=heartbeat
 # To turn the LED completely off comment out the previous line and uncomment
 # the next.
 #dtparam=act_led_trigger=none
+
+dtoverlay=waveshare35b-v2
+hdmi_force_hotplug=1
+hdmi_group=2
+hdmi_mode=1
+hdmi_mode=87
+hdmi_cvt 480 320 60 6 0 0 0
+hdmi_drive=2
+display_rotate=0

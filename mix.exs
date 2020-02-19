@@ -1,4 +1,4 @@
-defmodule NervesSystemRpi0Tft.MixProject do
+defmodule SystemRpi0Tft.MixProject do
   use Mix.Project
 
   @app :system_rpi0_tft

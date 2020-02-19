@@ -1,7 +1,7 @@
 defmodule NervesSystemRpi0Tft.MixProject do
   use Mix.Project
 
-  @app :nerves_system_rpi0_tft
+  @app :system_rpi0_tft
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
